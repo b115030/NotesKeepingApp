@@ -4,6 +4,7 @@ from django.db import models
 from django.contrib.auth.models import User
 from django.contrib.auth import authenticate
 from django.contrib.auth.hashers import make_password
+from .models import Account
 # from .models import Account
 
 #Register serializer
@@ -30,7 +31,7 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = '__all__'
 
-# class AccountDetailSerializer(serializers.HyperlinkedModelSerializer):
-#     class Meta:
-#         model = Account
-#         fields = ('id','first_name', 'last_name' ,'username', 'email' , 'password','date_joined','last_login')
+class AccountDetailSerializer(serializers.HyperlinkedModelSerializer):
+    class Meta:
+        model = Account
+        fields = ('id','first_name', 'last_name' ,'username', 'email' , 'password','date_joined','last_login')
