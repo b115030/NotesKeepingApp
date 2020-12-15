@@ -17,12 +17,46 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework_simplejwt import views as jwt_views
 from django.views.generic.base import TemplateView
+from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
+from account import views
+from rest_framework import routers
+
+# router = routers.DefaultRouter()
+# router.register('users', views.UserDetailsCrud)
 
 urlpatterns = [
+    # path('admin/', admin.site.urls),
+    # path('api/token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    # path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
+    # path('account/', include('account.urls')),
+    # path('accounts/', include('django.contrib.auth.urls')),
+    # path('', TemplateView.as_view(template_name='dashboard.html'), name='home'),
+    # path('admin/', admin.site.urls),
+    # path('', include(router.urls)),
+    # path('login/', views.LoginAPIView.as_view()),
+    # path('register/', views.RegisterView.as_view()),
+
+    # path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
+    # path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    # path('request-reset-email/', views.RequestPasswordResetEmail.as_view(),
+    #      name="request-reset-email"),
+    # path('password-reset/<uidb64>/<token>/',
+    #      views.PasswordTokenCheckAPI.as_view(), name='password-reset-confirm'),
+    # path('password-reset-complete/', views.SetNewPasswordAPIView.as_view(),
+    #      name='password-reset-complete')
+    # path('accounts/', include('account.urls')),
+    # path('signup/', views.signup, name="signup"),  
+    # path('activate/<uidb64>/<token>/',views.VerificationView, name='activate'),
+    # urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
-    path('account/', include('account.urls')),
-    path('accounts/', include('django.contrib.auth.urls')),
-    path('', TemplateView.as_view(template_name='dashboard.html'), name='home'),
+    path('login/', views.LoginAPIView.as_view()),
+    path('register/', views.RegisterView.as_view()),
+    path('email-verify/', views.VerifyEmail.as_view(), name="email-verify"),
+    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
+    path('request-reset-email/', views.RequestPasswordResetEmail.as_view(),
+         name="request-reset-email"),
+    path('password-reset/<uidb64>/<token>/',
+         views.PasswordTokenCheckAPI.as_view(), name='password-reset-confirm'),
+    path('password-reset-complete/', views.SetNewPasswordAPIView.as_view(),
+         name='password-reset-complete')
 ]
