@@ -21,10 +21,7 @@ class CustomAccountManager(BaseUserManager):
 
         Returns:
             [type]: [description]
-        """        
-        """
-        takes details of the user as input and if all details are valid then it will create superuser profile
-        """
+        """       
         other_fields.setdefault('is_staff', True)
         other_fields.setdefault('is_superuser', True)
         other_fields.setdefault('is_active', True)
