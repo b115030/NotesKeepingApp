@@ -43,6 +43,10 @@ INSTALLED_APPS = [
     'rest_framework',
     'account',
     'drf_yasg',
+    'notes',
+    'colorful',
+    'Label',
+    'colorfield',
 ]
 
 MIDDLEWARE = [
@@ -83,7 +87,7 @@ WSGI_APPLICATION = 'NotesKeepingApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'notesdb', 
+        'NAME': 'notesdb3', 
         'USER': 'postgres', 
         'PASSWORD': 'bluelagoon',
         'HOST': '127.0.0.1', 
@@ -164,3 +168,6 @@ formatter = logging.Formatter('%(levelname)s :%(asctime)s :%(pathname)s :%(linen
                               'process)d :%(message)s')
 file_handler = logging.FileHandler(filename='logs/NotesKeepingApp.log')
 file_handler.setFormatter(formatter)
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')

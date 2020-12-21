@@ -69,6 +69,7 @@ class RegisterView(generics.GenericAPIView):
         message_dict = {
             'success': False,
             'message': "Successful Registration. Click The Link for verification!",
+            'data': [],
         }
         try:
             serializer = self.serializer_class(data=request.data)
@@ -88,7 +89,7 @@ class RegisterView(generics.GenericAPIView):
         except Exception as e:
             message_dict['message'] = "Error occured!"
             logger.error("error: %s ", str(e))
-            return Response(message_dict, status=status.HTTP_201_CREATED)
+            return Response(message_dict, status=status.HTTP_400_BAD_REQUEST)
 
 
 class VerifyEmail(views.APIView):
@@ -121,7 +122,7 @@ class VerifyEmail(views.APIView):
                 user.is_active = True
                 user.save()
                 message_dict['success'] = True
-                message_dict['message'] = 'Successfully activated'
+                message_dict['message'] = 'Successfully activated'#change messgae
             return Response(message_dict, status=status.HTTP_200_OK)
         except jwt.ExpiredSignatureError as e:
             logger.error("error: %s ", str(e))

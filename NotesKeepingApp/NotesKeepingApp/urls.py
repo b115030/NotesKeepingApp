@@ -20,6 +20,8 @@ from django.views.generic.base import TemplateView
 from rest_framework_simplejwt.views import TokenObtainPairView, TokenRefreshView
 from account import views
 from rest_framework import routers
+from notes import views as note_view
+from Label import views as label_view
 
 # router = routers.DefaultRouter()
 # router.register('users', views.UserDetailsCrud)
@@ -58,5 +60,9 @@ urlpatterns = [
     path('password-reset/<uidb64>/<token>/',
          views.PasswordTokenCheckAPI.as_view(), name='password-reset-confirm'),
     path('password-reset-complete/', views.SetNewPasswordAPIView.as_view(),
-         name='password-reset-complete')
+         name='password-reset-complete'),
+    path('create-note/', note_view.NotesAPI.as_view(), name="AddNote"),
+    path('note/<int:pk>', note_view.NotesAPI.as_view(), name='UpdateNote'),
+    path('label/', label_view.Labels.as_view()),
+    path('label/<int:pk>', label_view.Labels.as_view()),
 ]

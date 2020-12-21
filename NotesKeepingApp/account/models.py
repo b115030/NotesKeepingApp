@@ -9,22 +9,19 @@ class CustomAccountManager(BaseUserManager):
         """takes in details of user and if valid creates super user
 
         Args:
-            first_name ([type]): [description]
-            last_name ([type]): [description]
-            user_name ([type]): [description]
-            email ([type]): [description]
-            password ([type]): [description]
+            first_name (string): first name of the user
+            last_name (string): last name of the user
+            user_name (string): user name of the user
+            email (string): email of the user
+            password (string): password of the user
 
         Raises:
-            ValueError: [description]
-            ValueError: [description]
+            ValueError: Superuser must be is_staff=True
+            ValueError: Superuser must be assigned to is_superuser=True
 
         Returns:
-            [type]: [description]
-        """        
-        """
-        takes details of the user as input and if all details are valid then it will create superuser profile
-        """
+            json: user objects
+        """       
         other_fields.setdefault('is_staff', True)
         other_fields.setdefault('is_superuser', True)
         other_fields.setdefault('is_active', True)
@@ -40,9 +37,14 @@ class CustomAccountManager(BaseUserManager):
         return self.create_user(first_name, last_name, user_name, email, password, **other_fields)
 
     def create_user(self, first_name, last_name, user_name, email, password, **other_fields):
-        """
-        takes details of the user as input and if all credentials are valid then it will create user
-        """
+        """ takes details of the user as input, if valid creates user
+
+        Raises:
+            ValueError: must provide an email address
+
+        Returns:
+            object: user object
+        """        
         if not email:
             raise ValueError(_('You must provide an email address'))
 
