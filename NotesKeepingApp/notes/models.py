@@ -16,7 +16,7 @@ class Note(models.Model):
     image = models.ImageField(upload_to='note_images/', default=None, null=True)  
     trash = models.BooleanField(default=False)  
     is_pinned = models.BooleanField(default=False)  
-    label = models.CharField(max_length=50, default=None, null=True)  
+    label = models.ManyToManyField(settings.AUTH_USER_MODEL, related_name="label", blank=True)
     collaborate = models.ManyToManyField(User, null=True, blank=True, related_name='collaborated_user') 
     user = models.ForeignKey(User, on_delete=models.CASCADE, related_name='owner', null=True, blank=True)  
     archive_time = models.DateTimeField(blank=True, null=True) 

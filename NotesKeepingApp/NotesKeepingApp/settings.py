@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'NotesKeepingApp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'notesdb2', 
+        'NAME': 'notesdb3', 
         'USER': 'postgres', 
         'PASSWORD': 'bluelagoon',
         'HOST': '127.0.0.1', 

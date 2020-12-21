@@ -2,14 +2,15 @@ from rest_framework import status
 from rest_framework.test import APITestCase
 from django.contrib.auth.models import User
 from django.contrib.auth import get_user_model
+from decouple import config
 
 User = get_user_model()
 
 
 class Data(APITestCase):
     def setUp(self):
-        self.register_url = 'http://127.0.0.1:8000/register/'
-        self.login_url = 'http://127.0.0.1:8000/login/'
+        self.register_url = config('URL')+'register/'#'http://127.0.0.1:8000/register/'
+        self.login_url = config('URL')+'login/'#'http://127.0.0.1:8000/login/'
         self.valid_registration_data = {'first_name': "Gopinath",
                                         'last_name': "Das",
                                         'email': "iitiangokul@gmail.com",

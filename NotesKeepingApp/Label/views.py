@@ -10,13 +10,13 @@ class Labels(APIView):
     serializer_class = LabelSerializer
 
     def post(self, request):
-        """[summary]
+        """label data as inpu if valid, stores the data in database
 
         Args:
-            request ([type]): [description]
+            request
 
         Returns:
-            [type]: [description]
+            message_dict: success or failure message along with status
         """        
     
         message_dict = {
@@ -32,20 +32,20 @@ class Labels(APIView):
                 message_dict['message'] = "Label has been added!"
                 message_dict['status'] = True
                 return Response(message_dict)
-            message_dict['message'] = "invalid data"
+            message_dict['message'] = "label name should be of max length 50"
             return Response(message_dict, status.HTTP_400_BAD_REQUEST)
         except Exception as e:
             message_dict['message'] = str(e)
             return Response(message_dict, status.HTTP_400_BAD_REQUEST)
 
     def get(self, *args, **kwargs):
-        """[summary]
+        """takes key as input, if exists in db, return the data 
 
         Returns:
-            [type]: [description]
+            message_dict: success or failure message along with status
         """        
         message_dict = {
-            'message': 'Something other issue',
+            'message': 'Some error occured',
             'status': False
         }
         try:
@@ -59,13 +59,13 @@ class Labels(APIView):
             return Response(message_dict, status.HTTP_400_BAD_REQUEST)
 
     def put(self, request, *args, **kwargs):
-        """[summary]
+        """takes in label, if valid then updates the data in database
 
         Args:
-            request ([type]): [description]
+            request 
 
         Returns:
-            [type]: [description]
+            message_dict: success or failure message along with status
         """        
         #comments
         message_dict = {
@@ -82,7 +82,7 @@ class Labels(APIView):
                 message_dict['message'] = "label updated"
                 message_dict['status'] = True
                 return Response(message_dict, status.HTTP_201_CREATED)
-            message_dict['message'] = "enter valid details"
+            message_dict['message'] = "label name should be of max length 50"
             message_dict['status'] = False
             return Response(message_dict, status.HTTP_400_BAD_REQUEST)
         except Exception as e:
@@ -90,10 +90,10 @@ class Labels(APIView):
             return Response(message_dict, status.HTTP_400_BAD_REQUEST)
 
     def delete(self, *args, **kwargs):
-        """[summary]
+        """takes in key as input, if data exists, deletes the data from db
 
         Returns:
-            [type]: [description]
+            message_dict: success or failure message along with status
         """        
         message_dict = {
             'message': 'error has been occured',
