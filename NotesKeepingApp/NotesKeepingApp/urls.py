@@ -51,8 +51,8 @@ urlpatterns = [
     # path('activate/<uidb64>/<token>/',views.VerificationView, name='activate'),
     # urlpatterns = [
     path('admin/', admin.site.urls),
-    path('login/', views.LoginAPIView.as_view()),
-    path('register/', views.RegisterView.as_view()),
+    path('login/', views.LoginAPIView.as_view(), name="login"),
+    path('register/', views.RegisterView.as_view(), name="register"),
     path('email-verify/', views.VerifyEmail.as_view(), name="email-verify"),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('request-reset-email/', views.RequestPasswordResetEmail.as_view(),
@@ -63,6 +63,6 @@ urlpatterns = [
          name='password-reset-complete'),
     path('create-note/', note_view.NotesAPI.as_view(), name="AddNote"),
     path('note/<int:pk>', note_view.NotesAPI.as_view(), name='UpdateNote'),
-    path('label/', label_view.Labels.as_view()),
+    path('label/', label_view.Labels.as_view(), name="label"),
     path('label/<int:pk>', label_view.Labels.as_view()),
 ]

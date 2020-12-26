@@ -3,12 +3,13 @@ from decouple import config
 # Create your tests here.
 from rest_framework import status
 from rest_framework.test import APITestCase
+from django.urls import reverse
 
 
 class Data(APITestCase):
     def setUp(self):
-        self.register_url = config('URL')+'register/'#'http://127.0.0.1:8000/register/'
-        self.note_post_url = config('URL')+'create-note/'#'http://127.0.0.1:8000/note/'
+        self.register_url = reverse("register")#config('URL')+'register/'#'http://127.0.0.1:8000/register/'
+        self.note_post_url = reverse("AddNote")#config('URL')+'create-note/'#'http://127.0.0.1:8000/note/'
         self.note_url = config('URL')+'note/1'#'http://127.0.0.1:8000/note/1'
 
         self.valid_note_data = {'user': 1,
@@ -46,6 +47,7 @@ class NotesTest(Data):
 
         response = self.client.get(self.note_url, format='json')
         self.assertEqual(response.status_code, status.HTTP_200_OK)
+        
 
         response = self.client.put(self.note_url, self.valid_note_put_data, format='json')
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)

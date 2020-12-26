@@ -8,6 +8,7 @@ import os
 import jwt
 import logging
 import json
+from django.contrib.auth import authenticate, login, logout
 from django.conf import settings
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
 from django.http import HttpResponsePermanentRedirect
@@ -22,7 +23,9 @@ from rest_framework_simplejwt.tokens import RefreshToken
 from .models import User
 from .serializer import RegisterSerializer, SetNewPasswordSerializer, ResetPasswordEmailRequestSerializer, EmailVerificationSerializer, LoginSerializer
 from .utils import Util
+from notes.decorators import token_dict
 from NotesKeepingApp.settings import file_handler
+from .utils import acccount_exception
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
@@ -42,15 +45,48 @@ class LoginAPIView(generics.GenericAPIView):
         it verifies the credentials, if credentials were matched then returns data in json format, else throws exception
 
         Args:
-            request ([type]): [description]
+            request 
 
         Returns:
             Response (json): json data if credentials are matched
         """        
-        
-        serializer = self.serializer_class(data=request.data)
-        serializer.is_valid(raise_exception=True)
-        return Response(serializer.data, status=status.HTTP_200_OK)
+        # try:
+        try:
+            serializer = self.serializer_class(data=request.data)
+            serializer.is_valid(raise_exception=True)
+            # encode_jwt = jwt.encode ({'user_id':'user_id'}, "secret", algorithm = "HS256")
+            # #.set{'user_id': 'token'}
+            # #shouldnot return the password and private credentials
+            email = serializer.data.get('email')
+            print(email)
+            password = serializer.data.get('password')
+            print(password)
+            user_login_details = User.objects.get(email = email)
+
+            if user_login_details.is_active == False:
+                raise acccount_exception("Activate your account to login.")
+
+                # if user_login_details.is_deleted == True:
+                #     raise acccount_exception("Account has been deleted.")
+
+                # user = authenticate(email=email, password=password)
+                # print (user)
+            # if user:
+            user_id = user_login_details.id
+            print(user_id)
+            return_token = jwt.encode({"token": user_id}, "secret", algorithm="HS256").decode('utf-8')
+            print(return_token)
+            token_dict["Token"]=return_token
+            return Response("Log in suuccessful", status.HTTP_200_OK) 
+            if user_login_details.is_active== True:
+                return Response("invalid password", status.HTTP_400_BAD_REQUEST)
+        # except User.DoesNotExist as e:
+        #     logging.warning(str(e))
+        # except acccount_exception as e:
+        #     logging.warning(str(e))
+        except Exception as e:
+            logging.warning(str(e))
+            return Response("Internal error", status.HTTP_400_BAD_REQUEST) 
 
 
 class RegisterView(generics.GenericAPIView):

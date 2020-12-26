@@ -18,3 +18,16 @@ class Util:
         email = EmailMessage(
             subject=data['email_subject'], body=data['email_body'], to=[data['to_email']])
         EmailThread(email).start()
+
+
+class acccount_exception(Exception):
+    """[summary]
+        Custom exception.
+    Args:
+        Exception ([Class]): [Exception]
+    """
+    def __init__(self, message):
+        self.message = message
+    
+    def __str__(self):
+        return self.message

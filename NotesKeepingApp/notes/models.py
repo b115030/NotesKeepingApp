@@ -27,3 +27,7 @@ class Note(models.Model):
 
     def __str__(self):
         return self.title + " " + self.description
+
+    def soft_delete(self):
+        self.is_deleted = True
+        self.save()  

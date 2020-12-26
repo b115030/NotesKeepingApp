@@ -36,3 +36,562 @@ ERROR :2020-12-21 07:40:56,817 :/mnt/c/Users/IITIA/Documents/djnago-project/Note
 ERROR :2020-12-21 07:47:53,467 :/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py :91 :140365545473856  :MainThread :23833 :error: {'email': [ErrorDetail(string='Enter a valid email address.', code='invalid')], 'password': [ErrorDetail(string='This field is required.', code='required')]} 
 ERROR :2020-12-21 07:52:47,542 :/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py :91 :139678546921280  :MainThread :24293 :error: {'email': [ErrorDetail(string='Enter a valid email address.', code='invalid')], 'password': [ErrorDetail(string='This field is required.', code='required')]} 
 ERROR :2020-12-21 07:52:52,110 :/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py :91 :139801899501376  :MainThread :24304 :error: {'email': [ErrorDetail(string='Enter a valid email address.', code='invalid')], 'password': [ErrorDetail(string='This field is required.', code='required')]} 
+2020-12-22 07:09:39,351:DEBUG:Using selector: EpollSelector
+2020-12-22 07:09:40,046:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/migrations/0001_initial.py changed, reloading.
+2020-12-22 07:09:40,047:DEBUG:Using selector: EpollSelector
+2020-12-22 07:09:45,486:DEBUG:Using selector: EpollSelector
+2020-12-22 07:31:56,130:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/NotesKeepingApp/settings.py changed, reloading.
+2020-12-22 07:31:56,132:DEBUG:Using selector: EpollSelector
+2020-12-22 07:32:24,007:DEBUG:Using selector: EpollSelector
+2020-12-22 07:32:24,942:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/migrations/0001_initial.py changed, reloading.
+2020-12-22 07:32:24,943:DEBUG:Using selector: EpollSelector
+2020-12-22 07:32:26,743:DEBUG:Using selector: EpollSelector
+2020-12-22 07:32:33,380:DEBUG:{'message': "'title'", 'status': False}
+2020-12-22 07:32:33,381:WARNING:Bad Request: /create-note/
+2020-12-22 07:32:33,382:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 07:32:33,382:WARNING:Bad Request: /note/1
+2020-12-22 07:32:33,383:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:32:33,383:WARNING:Bad Request: /note/1
+2020-12-22 07:32:33,384:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:32:33,384:WARNING:Not Found: /note/1
+2020-12-22 07:32:33,511:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 07:32:33,511:WARNING:Bad Request: /create-note/
+2020-12-22 07:32:33,512:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 07:32:33,512:WARNING:Bad Request: /note/1
+2020-12-22 07:35:25,834:DEBUG:{'message': "'title'", 'status': False}
+2020-12-22 07:35:25,835:WARNING:Bad Request: /create-note/
+2020-12-22 07:35:25,836:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 07:35:25,836:WARNING:Bad Request: /note/1
+2020-12-22 07:35:25,838:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:35:25,838:WARNING:Bad Request: /note/1
+2020-12-22 07:35:25,840:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:35:25,840:WARNING:Not Found: /note/1
+2020-12-22 07:35:25,959:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 07:35:25,959:WARNING:Bad Request: /create-note/
+2020-12-22 07:35:25,960:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 07:35:25,961:WARNING:Bad Request: /note/1
+2020-12-22 07:35:26,070:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 07:35:26,070:WARNING:Bad Request: /create-note/
+2020-12-22 07:35:26,072:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:35:26,072:WARNING:Bad Request: /note/1
+2020-12-22 07:35:26,182:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 07:35:26,183:WARNING:Bad Request: /create-note/
+2020-12-22 07:35:26,184:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:35:26,184:WARNING:Not Found: /note/1
+2020-12-22 07:38:23,414:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+2020-12-22 07:38:23,415:DEBUG:Using selector: EpollSelector
+2020-12-22 07:38:35,773:DEBUG:{'message': "'title'", 'status': False}
+2020-12-22 07:38:35,773:WARNING:Bad Request: /create-note/
+2020-12-22 07:38:35,775:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 07:38:35,776:WARNING:Bad Request: /note/1
+2020-12-22 07:38:35,777:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:38:35,777:WARNING:Bad Request: /note/1
+2020-12-22 07:38:35,779:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:38:35,779:WARNING:Not Found: /note/1
+2020-12-22 07:38:35,907:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 07:38:35,907:WARNING:Bad Request: /create-note/
+2020-12-22 07:38:35,908:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 07:38:35,908:WARNING:Bad Request: /note/1
+2020-12-22 07:38:36,014:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 07:38:36,014:WARNING:Bad Request: /create-note/
+2020-12-22 07:38:36,015:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:38:36,015:WARNING:Bad Request: /note/1
+2020-12-22 07:38:36,118:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 07:38:36,118:WARNING:Bad Request: /create-note/
+2020-12-22 07:38:36,119:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:38:36,119:WARNING:Not Found: /note/1
+2020-12-22 07:40:33,054:DEBUG:{'message': "'title'", 'status': False}
+2020-12-22 07:40:33,054:WARNING:Bad Request: /create-note/
+2020-12-22 07:40:33,056:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 07:40:33,056:WARNING:Bad Request: /note/1
+2020-12-22 07:40:33,057:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:40:33,058:WARNING:Bad Request: /note/1
+2020-12-22 07:40:33,059:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:40:33,059:WARNING:Not Found: /note/1
+2020-12-22 07:40:33,174:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 07:40:33,174:WARNING:Bad Request: /create-note/
+2020-12-22 07:40:33,175:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 07:40:33,176:WARNING:Bad Request: /note/1
+2020-12-22 07:40:33,280:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 07:40:33,280:WARNING:Bad Request: /create-note/
+2020-12-22 07:40:33,281:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:40:33,281:WARNING:Bad Request: /note/1
+2020-12-22 07:40:33,386:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 07:40:33,386:WARNING:Bad Request: /create-note/
+2020-12-22 07:40:33,387:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 07:40:33,387:WARNING:Not Found: /note/1
+2020-12-22 07:46:42,360:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/NotesKeepingApp/urls.py changed, reloading.
+2020-12-22 07:46:42,361:DEBUG:Using selector: EpollSelector
+2020-12-22 07:46:55,290:DEBUG:{'message': 'label name should be of max length 50', 'status': False, 'data': []}
+2020-12-22 07:46:55,290:WARNING:Bad Request: /label/
+2020-12-22 07:46:55,292:DEBUG:{'message': 'Label matching query does not exist.', 'status': False}
+2020-12-22 07:46:55,292:WARNING:Bad Request: /label/1
+2020-12-22 07:46:55,413:DEBUG:{'message': 'Label has been added!', 'status': True, 'data': {'user': 1, 'label_name': 'note 1'}}
+2020-12-22 07:46:55,415:DEBUG:{'message': {'user': 1, 'label_name': 'note 1'}, 'status': True}
+2020-12-22 07:46:55,420:DEBUG:{'message': 'label deleted', 'status': True}
+2020-12-22 07:55:04,980:DEBUG:{'message': 'label name should be of max length 50', 'status': False, 'data': []}
+2020-12-22 07:55:04,981:WARNING:Bad Request: /label/
+2020-12-22 07:55:04,983:DEBUG:{'message': 'Label matching query does not exist.', 'status': False}
+2020-12-22 07:55:04,983:WARNING:Bad Request: /label/1
+2020-12-22 07:55:05,107:DEBUG:{'message': 'Label has been added!', 'status': True, 'data': {'user': 1, 'label_name': 'note 1'}}
+2020-12-22 07:55:05,110:DEBUG:{'message': {'user': 1, 'label_name': 'note 1'}, 'status': True}
+2020-12-22 07:55:05,115:DEBUG:{'message': 'label deleted', 'status': True}
+2020-12-22 07:57:58,377:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/Label/views.py changed, reloading.
+2020-12-22 07:57:58,378:DEBUG:Using selector: EpollSelector
+2020-12-22 07:58:02,335:DEBUG:{'message': 'label name should be of max length 50', 'status': False, 'data': []}
+2020-12-22 07:58:02,335:WARNING:Bad Request: /label/
+2020-12-22 07:58:02,337:DEBUG:{'message': 'Label matching query does not exist.', 'status': False}
+2020-12-22 07:58:02,338:WARNING:Bad Request: /label/1
+2020-12-22 07:58:02,473:DEBUG:{'message': 'Label has been added!', 'status': True, 'data': {'user': 1, 'label_name': 'note 1'}}
+2020-12-22 07:58:02,474:DEBUG:{'message': {'user': 1, 'label_name': 'note 1'}, 'status': True}
+2020-12-22 07:58:02,479:DEBUG:{'message': 'label deleted', 'status': True}
+2020-12-22 07:59:07,121:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/Label/views.py changed, reloading.
+2020-12-22 07:59:07,121:DEBUG:Using selector: EpollSelector
+2020-12-22 07:59:10,420:DEBUG:{'message': 'label name should be of max length 50', 'status': False, 'data': []}
+2020-12-22 07:59:10,421:WARNING:Bad Request: /label/
+2020-12-22 07:59:10,422:DEBUG:{'message': 'Label matching query does not exist.', 'status': False}
+2020-12-22 07:59:10,422:WARNING:Not Found: /label/1
+2020-12-22 07:59:10,423:DEBUG:{'message': 'Label matching query does not exist.', 'status': False}
+2020-12-22 07:59:10,423:WARNING:Bad Request: /label/1
+2020-12-22 07:59:10,546:DEBUG:{'message': 'Label has been added!', 'status': True, 'data': {'user': 1, 'label_name': 'note 1'}}
+2020-12-22 07:59:10,547:DEBUG:{'message': {'user': 1, 'label_name': 'note 1'}, 'status': True}
+2020-12-22 07:59:10,553:DEBUG:{'message': 'label deleted', 'status': True}
+2020-12-22 07:59:54,333:DEBUG:Using selector: EpollSelector
+2020-12-22 08:00:53,711:DEBUG:Using selector: EpollSelector
+2020-12-22 08:01:17,691:DEBUG:{'message': "'title'", 'status': False}
+2020-12-22 08:01:17,692:WARNING:Bad Request: /create-note/
+2020-12-22 08:01:17,693:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 08:01:17,694:WARNING:Bad Request: /note/1
+2020-12-22 08:01:17,695:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 08:01:17,695:WARNING:Bad Request: /note/1
+2020-12-22 08:01:17,696:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 08:01:17,697:WARNING:Not Found: /note/1
+2020-12-22 08:01:17,837:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 08:01:17,837:WARNING:Bad Request: /create-note/
+2020-12-22 08:01:17,838:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 08:01:17,839:WARNING:Bad Request: /note/1
+2020-12-22 08:02:20,560:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/NotesKeepingApp/settings.py changed, reloading.
+2020-12-22 08:02:20,561:DEBUG:Using selector: EpollSelector
+2020-12-22 08:02:23,233:DEBUG:{'message': "'title'", 'status': False}
+2020-12-22 08:02:23,233:WARNING:Bad Request: /create-note/
+2020-12-22 08:02:23,235:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 08:02:23,235:WARNING:Bad Request: /note/1
+2020-12-22 08:02:23,236:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 08:02:23,237:WARNING:Bad Request: /note/1
+2020-12-22 08:02:23,238:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 08:02:23,238:WARNING:Not Found: /note/1
+2020-12-22 08:02:23,358:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 08:02:23,358:WARNING:Bad Request: /create-note/
+2020-12-22 08:02:23,361:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 08:02:23,361:WARNING:Bad Request: /note/1
+2020-12-22 08:02:52,256:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/NotesKeepingApp/settings.py changed, reloading.
+2020-12-22 08:02:52,256:DEBUG:Using selector: EpollSelector
+2020-12-22 08:02:54,803:DEBUG:{'message': "'title'", 'status': False}
+2020-12-22 08:02:54,803:WARNING:Bad Request: /create-note/
+2020-12-22 08:02:54,805:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 08:02:54,805:WARNING:Bad Request: /note/1
+2020-12-22 08:02:54,806:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 08:02:54,807:WARNING:Bad Request: /note/1
+2020-12-22 08:02:54,808:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 08:02:54,808:WARNING:Not Found: /note/1
+2020-12-22 08:02:54,923:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 08:02:54,923:WARNING:Bad Request: /create-note/
+2020-12-22 08:02:54,924:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 08:02:54,925:WARNING:Bad Request: /note/1
+2020-12-22 08:03:17,573:DEBUG:{'message': 'label name should be of max length 50', 'status': False, 'data': []}
+2020-12-22 08:03:17,574:WARNING:Bad Request: /label/
+2020-12-22 08:03:17,575:DEBUG:{'message': 'Label matching query does not exist.', 'status': False}
+2020-12-22 08:03:17,575:WARNING:Not Found: /label/1
+2020-12-22 08:03:17,577:DEBUG:{'message': 'Label matching query does not exist.', 'status': False}
+2020-12-22 08:03:17,577:WARNING:Bad Request: /label/1
+2020-12-22 08:03:17,694:DEBUG:{'message': 'label name should be of max length 50', 'status': False, 'data': []}
+2020-12-22 08:03:17,694:WARNING:Bad Request: /label/
+2020-12-22 08:03:17,695:DEBUG:{'message': 'Label matching query does not exist.', 'status': False}
+2020-12-22 08:03:17,695:WARNING:Not Found: /label/1
+2020-12-22 08:05:59,544:WARNING:Unauthorized: /login/
+ERROR :2020-12-22 08:05:59,793 :/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py :91 :140575364220736  :MainThread :2396 :error: {'email': [ErrorDetail(string='Enter a valid email address.', code='invalid')], 'password': [ErrorDetail(string='This field is required.', code='required')]} 
+2020-12-22 08:05:59,793:ERROR:error: {'email': [ErrorDetail(string='Enter a valid email address.', code='invalid')], 'password': [ErrorDetail(string='This field is required.', code='required')]} 
+2020-12-22 08:05:59,794:WARNING:Bad Request: /register/
+2020-12-22 08:06:07,783:DEBUG:{'message': "'title'", 'status': False}
+2020-12-22 08:06:07,784:WARNING:Bad Request: /create-note/
+2020-12-22 08:06:07,785:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 08:06:07,785:WARNING:Bad Request: /note/1
+2020-12-22 08:06:07,787:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 08:06:07,787:WARNING:Bad Request: /note/1
+2020-12-22 08:06:07,788:DEBUG:{'message': 'Note matching query does not exist.', 'status': False}
+2020-12-22 08:06:07,788:WARNING:Not Found: /note/1
+2020-12-22 08:06:07,905:DEBUG:{'message': 'title has to be of max length 50', 'status': False}
+2020-12-22 08:06:07,905:WARNING:Bad Request: /create-note/
+2020-12-22 08:06:07,906:DEBUG:{'message': 'Note matching query does not exist.', 'status': False, 'data': []}
+2020-12-22 08:06:07,906:WARNING:Bad Request: /note/1
+2020-12-22 08:06:35,580:DEBUG:{'message': 'label name should be of max length 50', 'status': False, 'data': []}
+2020-12-22 08:06:35,581:WARNING:Bad Request: /label/
+2020-12-22 08:06:35,582:DEBUG:{'message': 'Label matching query does not exist.', 'status': False}
+2020-12-22 08:06:35,583:WARNING:Not Found: /label/1
+2020-12-22 08:06:35,584:DEBUG:{'message': 'Label matching query does not exist.', 'status': False}
+2020-12-22 08:06:35,584:WARNING:Bad Request: /label/1
+2020-12-22 08:06:35,698:DEBUG:{'message': 'label name should be of max length 50', 'status': False, 'data': []}
+2020-12-22 08:06:35,698:WARNING:Bad Request: /label/
+2020-12-22 08:06:35,700:DEBUG:{'message': 'Label matching query does not exist.', 'status': False}
+2020-12-22 08:06:35,700:WARNING:Not Found: /label/1
+2020-12-22 08:15:25,901:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/Label/views.py changed, reloading.
+2020-12-22 08:15:25,906:DEBUG:Using selector: EpollSelector
+2020-12-22 08:16:10,200:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/Label/views.py changed, reloading.
+2020-12-22 08:16:10,200:DEBUG:Using selector: EpollSelector
+2020-12-22 08:16:38,833:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/Label/views.py changed, reloading.
+2020-12-22 08:16:38,833:DEBUG:Using selector: EpollSelector
+2020-12-22 08:26:42,409:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/Label/views.py changed, reloading.
+2020-12-22 08:26:42,418:DEBUG:Using selector: EpollSelector
+2020-12-22 09:12:38,405:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/Label/views.py changed, reloading.
+2020-12-22 09:12:38,407:DEBUG:Using selector: EpollSelector
+2020-12-22 09:16:06,493:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+2020-12-22 09:16:06,493:DEBUG:Using selector: EpollSelector
+2020-12-22 09:31:10,095:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+2020-12-22 09:31:10,096:DEBUG:Using selector: EpollSelector
+2020-12-22 09:37:37,027:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+2020-12-22 09:37:37,028:DEBUG:Using selector: EpollSelector
+2020-12-22 09:39:56,153:INFO:/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+2020-12-22 09:39:56,153:DEBUG:Using selector: EpollSelector
+[2020-12-26 03:45:03,981] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 03:45:03,989] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 03:46:50,745] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /login
+[2020-12-26 03:46:55,392] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 03:46:55,392] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 03:46:55,556] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 03:47:07,049] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Unauthorized: /login/
+[2020-12-26 03:47:43,163] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 03:48:14,984] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 03:50:25,385] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /create-note/
+[2020-12-26 03:51:59,441] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 03:51:59,441] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 03:51:59,454] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 03:52:07,003] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 03:52:07,003] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 03:52:20,692] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /create-note/
+[2020-12-26 03:57:27,220] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 03:57:27,221] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 03:57:36,956] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 03:57:36,956] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 03:58:30,499] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 03:58:30,499] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:05:57,743] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:05:57,744] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:06:22,190] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:06:22,191] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:07:06,214] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:07:06,215] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:07:46,249] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:07:46,250] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:09:18,691] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/utils.py changed, reloading.
+[2020-12-26 04:09:18,691] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:09:32,809] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:09:32,810] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:10:45,735] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:10:45,735] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:11:41,142] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:11:41,142] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:12:01,531] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /create-note/
+[2020-12-26 04:12:08,417] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /login
+[2020-12-26 04:12:08,521] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /favicon.ico
+[2020-12-26 04:12:11,965] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:12:11,965] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:12:11,984] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 04:12:20,786] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:88} WARNING - 'User' object has no attribute 'is_deleted'
+[2020-12-26 04:12:20,831] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 90, in post
+    return Response(data={'message': return_message}, status=return_status)
+UnboundLocalError: local variable 'return_message' referenced before assignment
+[2020-12-26 04:14:47,175] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:14:47,176] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:14:52,153] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:14:52,154] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:15:03,343] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:15:03,343] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:15:03,362] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 04:15:09,674] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:92} WARNING - 'User' object has no attribute 'is_deleted'
+[2020-12-26 04:15:09,696] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 95, in post
+    return Response(data={"message": return_message, "token": return_token}, status=return_status)
+UnboundLocalError: local variable 'return_message' referenced before assignment
+[2020-12-26 04:24:40,675] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:24:40,676] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:25:38,055] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:25:38,055] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:25:53,591] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:92} WARNING - 'User' object has no attribute 'is_deleted'
+[2020-12-26 04:25:53,619] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 95, in post
+    return Response(data={"message": return_message, "token": return_token}, status=return_status)
+UnboundLocalError: local variable 'return_message' referenced before assignment
+[2020-12-26 04:25:53,700] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /favicon.ico
+[2020-12-26 04:25:56,260] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:25:56,260] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:25:56,280] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 04:26:02,378] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:92} WARNING - 'User' object has no attribute 'is_deleted'
+[2020-12-26 04:26:02,397] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 95, in post
+    return Response(data={"message": return_message, "token": return_token}, status=return_status)
+UnboundLocalError: local variable 'return_message' referenced before assignment
+[2020-12-26 04:26:52,913] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:26:52,913] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:27:08,454] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:27:08,454] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:27:08,473] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 04:27:13,797] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:95} WARNING - 'User' object has no attribute 'is_deleted'
+[2020-12-26 04:27:13,819] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 67, in post
+    if login_attempt_with_user.is_deleted == True:
+AttributeError: 'User' object has no attribute 'is_deleted'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 96, in post
+    return Response(data={"message": return_message, "token": return_token}, status=return_status)
+UnboundLocalError: local variable 'return_message' referenced before assignment
+[2020-12-26 04:27:57,187] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:27:57,187] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:28:00,412] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:28:00,413] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:28:00,431] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 04:28:08,089] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:95} WARNING - local variable 'return_token' referenced before assignment
+[2020-12-26 04:28:08,112] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 84, in post
+    return Response(data={"message": return_message, "token": return_token}, status=return_status)
+UnboundLocalError: local variable 'return_token' referenced before assignment
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 96, in post
+    return Response(data={"message": return_message, "token": return_token}, status=return_status)
+UnboundLocalError: local variable 'return_token' referenced before assignment
+[2020-12-26 04:29:30,486] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:29:30,486] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:30:02,082] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:30:02,082] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:30:36,756] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:30:36,757] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:30:53,505] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:30:53,505] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:30:53,524] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 04:30:59,689] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:30:59,689] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:30:59,700] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-26 04:31:20,470] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /register
+[2020-12-26 04:31:24,211] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:31:24,211] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:31:24,225] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /register/
+[2020-12-26 04:31:50,420] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:31:50,421] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+ERROR :2020-12-26 04:33:06,905 :/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py :143 :139646158833408  :Thread-1 :13979 :error: {'email': [ErrorDetail(string='user with this email already exists.', code='unique')]} 
+[2020-12-26 04:33:06,905] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:143} ERROR - error: {'email': [ErrorDetail(string='user with this email already exists.', code='unique')]} 
+[2020-12-26 04:33:06,907] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:33:06,907] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:33:06,921] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /register/
+[2020-12-26 04:34:37,792] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:34:37,792] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:34:37,805] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /register/
+[2020-12-26 04:35:09,464] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:35:09,464] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:35:36,068] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:35:36,068] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:35:36,079] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 04:35:52,301] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:35:52,301] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:35:52,312] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-26 04:37:05,884] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /favicon.ico
+[2020-12-26 04:37:21,000] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:37:21,000] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:37:34,221] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:37:34,221] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:37:34,241] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-26 04:38:17,525] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:38:17,526] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:38:25,383] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:38:25,383] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:38:25,407] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-26 04:39:41,892] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:39:41,892] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:44:34,298] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:44:34,298] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:46:39,700] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 04:46:39,701] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 04:47:36,400] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:47:36,400] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:47:36,423] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 04:47:42,422] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:47:42,422] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 04:47:47,765] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 04:47:47,765] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 05:05:54,531] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 05:05:54,532] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 05:06:08,449] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 05:06:08,449] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 05:06:29,965] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 05:06:29,965] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 05:06:50,322] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /create-note/4
+[2020-12-26 05:06:54,020] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /create-note/
+[2020-12-26 05:07:48,516] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 05:07:48,516] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 05:08:09,717] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 05:08:09,717] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 05:08:09,738] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 05:08:21,058] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 05:08:21,058] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 05:38:23,895] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 05:38:23,896] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 05:38:39,242] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 05:38:39,242] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 05:38:39,263] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-26 05:38:45,252] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-26 05:38:45,252] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-26 06:19:15,305] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/NotesKeepingApp/settings.py changed, reloading.
+[2020-12-26 06:19:15,306] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:19:52,359] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/NotesKeepingApp/settings.py changed, reloading.
+[2020-12-26 06:19:52,360] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:20:43,706] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+[2020-12-26 06:20:43,707] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:20:59,873] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+[2020-12-26 06:20:59,873] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:21:17,081] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+[2020-12-26 06:21:17,082] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:21:25,082] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+[2020-12-26 06:21:25,083] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:22:36,876] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/NotesKeepingApp/settings.py changed, reloading.
+[2020-12-26 06:22:36,877] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:23:52,853] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+[2020-12-26 06:23:52,853] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:36:21,649] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:36:21,650] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:36:36,984] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:36:36,984] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:37:38,532] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:37:38,533] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:38:21,533] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:38:21,534] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:39:11,876] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:39:11,877] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:39:40,360] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:39:40,361] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:40:19,220] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:40:19,221] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:40:25,243] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:40:25,243] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:40:51,779] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:40:51,780] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:42:05,912] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:42:05,912] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:42:35,611] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:42:35,612] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:43:16,209] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 06:43:16,210] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:44:24,820] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 06:44:24,821] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:58:53,963] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 06:58:53,964] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:59:42,561] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 06:59:42,562] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 06:59:49,498] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 06:59:49,499] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
