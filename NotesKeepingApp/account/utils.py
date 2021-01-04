@@ -20,7 +20,7 @@ class Util:
         EmailThread(email).start()
 
 
-class acccount_exception(Exception):
+class AccountError(Exception):
     """[summary]
         Custom exception.
     Args:
@@ -31,3 +31,10 @@ class acccount_exception(Exception):
     
     def __str__(self):
         return self.message
+class Error(Exception):
+    pass
+class NotFoundUserError(Error):
+    def __init__(self, user_id, message="User id not present"):
+        self.user_id = user_id
+        self.message = message
+        super().__init__(self.message)

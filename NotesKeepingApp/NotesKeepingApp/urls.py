@@ -52,6 +52,7 @@ urlpatterns = [
     # urlpatterns = [
     path('admin/', admin.site.urls),
     path('login/', views.LoginAPIView.as_view(), name="login"),
+    path('logout/', views.UserLogoutView.as_view(), name='logout'),
     path('register/', views.RegisterView.as_view(), name="register"),
     path('email-verify/', views.VerifyEmail.as_view(), name="email-verify"),
     path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
@@ -65,4 +66,5 @@ urlpatterns = [
     path('note/<int:pk>', note_view.NotesAPI.as_view(), name='UpdateNote'),
     path('label/', label_view.Labels.as_view(), name="label"),
     path('label/<int:pk>', label_view.Labels.as_view()),
+    path('all-notes/', note_view.AllNotesAPI.as_view(), name="AllNotes"),
 ]

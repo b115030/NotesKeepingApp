@@ -595,3 +595,1003 @@ ERROR :2020-12-26 04:33:06,905 :/mnt/c/Users/IITIA/Documents/djnago-project/Note
 [2020-12-26 06:59:42,562] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
 [2020-12-26 06:59:49,498] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
 [2020-12-26 06:59:49,499] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:14:45,512] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 07:14:45,521] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:21:20,204] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-26 07:21:20,204] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:21:42,815] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 07:21:42,816] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:24:31,605] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:24:31,606] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:26:49,152] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:26:49,152] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:27:43,335] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:27:43,335] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:30:12,134] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:30:12,135] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:31:00,599] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:31:00,599] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:33:37,612] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:33:37,613] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:34:08,472] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:34:08,472] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:34:46,464] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:34:46,464] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:35:01,717] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:35:01,717] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:36:03,288] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:36:03,289] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:37:49,209] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:37:49,210] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:37:59,306] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:37:59,307] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:38:31,087] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-26 07:38:31,087] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:39:34,945] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 07:39:34,945] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:39:39,089] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 07:39:39,089] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:40:09,106] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 07:40:09,107] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 07:46:24,756] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /create-note/
+[2020-12-26 07:49:06,906] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /logout/
+[2020-12-26 07:51:44,228] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+[2020-12-26 07:51:44,235] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 08:19:34,864] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 08:19:34,865] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 08:24:28,676] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 08:24:28,677] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 08:26:33,029] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-26 08:26:33,029] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 08:26:45,276] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-26 08:26:45,277] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 08:30:52,055] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-26 08:30:52,056] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-26 08:39:36,487] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-26 08:39:36,488] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-29 04:28:58,378] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-29 04:28:58,378] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-29 04:28:58,480] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-29 04:28:58,849] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /favicon.ico
+[2020-12-29 04:37:32,807] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:98} WARNING - {'email': [ErrorDetail(string='This field is required.', code='required')], 'password': [ErrorDetail(string='This field is required.', code='required')]}
+[2020-12-29 04:37:32,807] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-29 04:39:39,680] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:98} WARNING - Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-29 04:39:39,680] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-29 04:39:48,496] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:98} WARNING - Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-29 04:39:48,496] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-29 04:40:37,357] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:98} WARNING - Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-29 04:40:37,361] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-29 04:40:37,362] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-29 04:40:37,378] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-29 08:45:08,008] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-29 08:45:08,008] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-29 09:52:24,129] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-29 09:52:24,130] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-29 09:52:58,088] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-29 09:52:58,089] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-29 09:53:05,419] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-29 09:53:05,420] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-29 09:53:13,867] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-29 09:53:13,867] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-29 10:13:56,101] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-30 17:06:58,209] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py:36} ERROR - exception occurred = 'HTTP_TOKEN', status code = 403
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py", line 14, in wrapper
+    request_token = request.META['HTTP_TOKEN']
+KeyError: 'HTTP_TOKEN'
+[2020-12-30 17:06:58,211] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /create-note/
+[2020-12-30 17:07:28,386] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py:101} WARNING - Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-30 17:07:28,387] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-30 17:23:08,847] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-30 17:23:08,847] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-30 17:28:30,443] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-30 17:28:30,444] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-30 17:28:39,444] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-30 17:28:39,444] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-30 17:28:47,447] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-30 17:28:47,447] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-30 17:29:02,674] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-30 17:29:02,675] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-30 17:35:29,747] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-30 17:35:29,748] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-30 18:10:31,890] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+[2020-12-30 18:10:31,891] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-30 18:11:33,205] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+[2020-12-30 18:11:33,205] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-30 18:12:05,930] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+[2020-12-30 18:12:05,930] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-30 18:39:21,936] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 03:38:36,425] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py:36} ERROR - exception occurred = 'HTTP_TOKEN', status code = 403
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py", line 14, in wrapper
+    request_token = request.META['HTTP_TOKEN']
+KeyError: 'HTTP_TOKEN'
+[2020-12-31 03:38:36,426] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /all-notes/
+[2020-12-31 03:39:09,103] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 03:39:09,104] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 03:39:19,151] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py:36} ERROR - exception occurred = 'HTTP_TOKEN', status code = 403
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py", line 14, in wrapper
+    request_token = request.META['HTTP_TOKEN']
+KeyError: 'HTTP_TOKEN'
+[2020-12-31 03:39:19,153] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /all-notes/
+[2020-12-31 03:40:43,352] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 03:40:43,353] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 03:40:50,388] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 83, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 03:41:30,009] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 83, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 03:41:44,213] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 03:41:44,213] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 03:41:44,287] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-31 03:41:44,578] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /favicon.ico
+[2020-12-31 03:41:50,357] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 83, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 03:46:52,328] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 03:46:52,328] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 03:46:52,349] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-31 03:46:59,126] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 83, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 03:48:33,355] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 03:49:10,983] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 03:49:18,054] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 03:49:47,292] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 83, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 03:49:50,835] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 03:49:50,836] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 03:49:50,853] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-31 03:49:56,327] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 83, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 04:04:07,472] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 04:04:07,474] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 04:04:07,497] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-31 04:04:07,654] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /favicon.ico
+[2020-12-31 04:04:14,850] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 83, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 04:23:32,885] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/utils.py changed, reloading.
+[2020-12-31 04:23:32,886] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 04:26:55,974] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 04:26:55,974] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 04:28:14,552] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 04:28:14,553] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 04:28:48,326] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/utils.py changed, reloading.
+[2020-12-31 04:28:48,327] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 04:29:00,344] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/utils.py changed, reloading.
+[2020-12-31 04:29:00,344] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 04:29:03,187] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/utils.py changed, reloading.
+[2020-12-31 04:29:03,187] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 04:47:23,921] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-31 04:47:23,922] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 04:47:35,063] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 04:47:35,063] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 04:47:35,093] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-31 04:47:35,246] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /favicon.ico
+[2020-12-31 04:47:41,021] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 86, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 07:07:07,410] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+[2020-12-31 07:07:07,436] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 07:42:03,163] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 07:42:03,163] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 07:42:03,281] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-31 07:42:03,518] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /favicon.ico
+[2020-12-31 07:42:10,201] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 86, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 07:43:00,646] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 07:43:00,647] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 07:43:05,266] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 86, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 07:43:14,056] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 07:43:14,056] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 07:43:19,273] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 86, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 07:43:22,868] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 07:43:22,869] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 07:43:22,888] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-31 07:43:44,916] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 07:43:44,916] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 07:43:54,832] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 86, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 07:44:26,028] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 07:44:26,028] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 07:44:30,963] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 86, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 07:44:33,393] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 07:44:33,393] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 07:44:33,411] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Method Not Allowed: /login/
+[2020-12-31 07:44:40,196] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 559, in connect
+    sock = self._connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 584, in _connect
+    for res in socket.getaddrinfo(self.host, self.port, self.socket_type,
+  File "/usr/lib/python3.8/socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno -2] Name or service not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 86, in post
+    Cache.set_cache(user_id, return_token)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py", line 14, in set_cache
+    r.set(key, val)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 1801, in set
+    return self.execute_command('SET', *pieces)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/client.py", line 898, in execute_command
+    conn = self.connection or pool.get_connection(command_name, **options)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 1192, in get_connection
+    connection.connect()
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/redis/connection.py", line 563, in connect
+    raise ConnectionError(self._error_message(e))
+redis.exceptions.ConnectionError: Error -2 connecting to http://127.0.0.1:8000/:6379. Name or service not known.
+[2020-12-31 07:46:05,886] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/services.py changed, reloading.
+[2020-12-31 07:46:05,887] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 07:46:11,065] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 07:46:11,066] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 07:46:22,298] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 07:46:22,298] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 07:52:08,801] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/views.py changed, reloading.
+[2020-12-31 07:52:08,802] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 07:53:32,049] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 07:53:32,049] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 07:54:13,009] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/utils.py changed, reloading.
+[2020-12-31 07:54:13,009] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 07:54:56,090] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 07:54:56,091] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 07:55:07,345] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/utils.py changed, reloading.
+[2020-12-31 07:55:07,346] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 08:06:05,298] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 83, in post
+    raise NotFoundUserError(user_login_details.id)
+account.utils.NotFoundUserError: User id not present
+[2020-12-31 08:06:14,471] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 83, in post
+    raise NotFoundUserError(user_login_details.id)
+account.utils.NotFoundUserError: User id not present
+[2020-12-31 08:06:21,961] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /login/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/views/generic/base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py", line 83, in post
+    raise NotFoundUserError(user_login_details.id)
+account.utils.NotFoundUserError: User id not present
+[2020-12-31 08:06:22,070] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /favicon.ico
+[2020-12-31 08:06:47,442] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 08:06:47,442] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 08:06:51,484] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 08:06:51,484] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 08:06:51,664] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /favicon.ico
+[2020-12-31 08:07:02,921] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:163} DEBUG - Successfully imported extension module "markdown.extensions.toc".
+[2020-12-31 08:07:02,922] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/markdown/core.py:126} DEBUG - Successfully loaded extension "markdown.extensions.toc.TocExtension".
+[2020-12-31 08:08:06,054] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /note/
+[2020-12-31 08:08:21,043] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py:36} ERROR - exception occurred = User matching query does not exist., status code = 403
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py", line 23, in wrapper
+    request.user = User.objects.get(id = decodedPayload.get('id') )
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+account.models.User.DoesNotExist: User matching query does not exist.
+[2020-12-31 08:08:21,044] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /create-note/
+[2020-12-31 08:54:37,837] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:02:27,034] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:02:27,035] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:02:48,986] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-31 17:04:21,416] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /note/
+[2020-12-31 17:04:45,354] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /note/
+[2020-12-31 17:04:45,546] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Not Found: /favicon.ico
+[2020-12-31 17:04:52,810] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py:36} ERROR - exception occurred = 'HTTP_TOKEN', status code = 403
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py", line 14, in wrapper
+    request_token = request.META['HTTP_TOKEN']
+KeyError: 'HTTP_TOKEN'
+[2020-12-31 17:04:52,811] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /note/1
+[2020-12-31 17:05:50,187] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:05:50,187] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:06:01,049] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /note/1
+[2020-12-31 17:06:37,730] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /note/1
+[2020-12-31 17:06:39,845] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /note/1
+[2020-12-31 17:06:44,792] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /create-note/
+[2020-12-31 17:07:17,556] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:07:17,556] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:07:26,595] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /create-note/
+[2020-12-31 17:12:03,039] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/account/views.py changed, reloading.
+[2020-12-31 17:12:03,039] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:12:09,331] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /create-note/
+[2020-12-31 17:12:32,064] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /create-note/
+[2020-12-31 17:14:34,112] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-31 17:14:42,211] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py:38} ERROR - exception occurred = User matching query does not exist., status code = 403
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py", line 24, in wrapper
+    request.user = User.objects.get(id = decodedPayload.get('id') )
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+account.models.User.DoesNotExist: User matching query does not exist.
+[2020-12-31 17:14:42,212] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /create-note/
+[2020-12-31 17:15:23,407] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py:38} ERROR - exception occurred = User matching query does not exist., status code = 403
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py", line 24, in wrapper
+    request.user = User.objects.get(id = decodedPayload.get('id') )
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/db/models/manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/db/models/query.py", line 429, in get
+    raise self.model.DoesNotExist(
+account.models.User.DoesNotExist: User matching query does not exist.
+[2020-12-31 17:15:23,408] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /note/1
+[2020-12-31 17:15:34,023] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py:38} ERROR - exception occurred = 'HTTP_TOKEN', status code = 403
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py", line 14, in wrapper
+    request_token = request.META['HTTP_TOKEN']
+KeyError: 'HTTP_TOKEN'
+[2020-12-31 17:15:34,023] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /note/1
+[2020-12-31 17:15:37,262] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /note/1
+[2020-12-31 17:16:12,475] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:16:12,475] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:16:17,232] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /note/1
+[2020-12-31 17:17:03,854] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:17:03,854] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:17:07,786] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /note/1
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view notes.views.NotesAPI didn't return an HttpResponse object. It returned None instead.
+[2020-12-31 17:17:21,947] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py:38} ERROR - exception occurred = 'HTTP_TOKEN', status code = 403
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py", line 14, in wrapper
+    request_token = request.META['HTTP_TOKEN']
+KeyError: 'HTTP_TOKEN'
+[2020-12-31 17:17:21,947] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /note/1
+[2020-12-31 17:20:50,574] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:20:50,574] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:21:32,599] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:21:32,599] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:21:41,765] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:21:41,766] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:22:00,129] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:22:00,131] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:22:12,217] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:22:12,218] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:22:26,240] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /create-note/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view notes.views.NotesAPI didn't return an HttpResponse object. It returned None instead.
+[2020-12-31 17:22:40,809] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /create-note/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view notes.views.NotesAPI didn't return an HttpResponse object. It returned None instead.
+[2020-12-31 17:23:23,893] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} ERROR - Internal Server Error: /create-note/
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/exception.py", line 47, in inner
+    response = get_response(request)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 186, in _get_response
+    self.check_response(response, callback)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/core/handlers/base.py", line 307, in check_response
+    raise ValueError(
+ValueError: The view notes.views.NotesAPI didn't return an HttpResponse object. It returned None instead.
+[2020-12-31 17:23:39,524] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:23:39,524] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:23:42,571] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py:42} ERROR - exception occurred = unsupported operand type(s) for +: 'dict' and 'str', status code = 403
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py", line 21, in wrapper
+    print(decodedPayload+'hello!!')
+TypeError: unsupported operand type(s) for +: 'dict' and 'str'
+[2020-12-31 17:23:42,572] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /create-note/
+[2020-12-31 17:24:13,820] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Bad Request: /login/
+[2020-12-31 17:24:31,934] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/autoreload.py:236} INFO - /mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py changed, reloading.
+[2020-12-31 17:24:31,934] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector
+[2020-12-31 17:25:15,855] {/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py:42} ERROR - exception occurred = post() got an unexpected keyword argument 'userid', status code = 403
+Traceback (most recent call last):
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/NotesKeepingApp/notes/decorators.py", line 30, in wrapper
+    return view_func(request, *args, **kwargs)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+TypeError: post() got an unexpected keyword argument 'userid'
+[2020-12-31 17:25:15,856] {/mnt/c/Users/IITIA/Documents/djnago-project/env/lib/python3.8/site-packages/django/utils/log.py:224} WARNING - Forbidden: /create-note/
+[2020-12-31 17:37:54,754] {/usr/lib/python3.8/asyncio/selector_events.py:59} DEBUG - Using selector: EpollSelector

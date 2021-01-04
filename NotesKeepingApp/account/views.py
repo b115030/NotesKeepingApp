@@ -18,6 +18,7 @@ from django.utils.http import urlsafe_base64_encode
 from drf_yasg import openapi
 from drf_yasg.utils import swagger_auto_schema
 from rest_framework import (generics, status, views)
+import redis
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import RefreshToken
 from .models import User
@@ -25,11 +26,14 @@ from .serializer import RegisterSerializer, SetNewPasswordSerializer, ResetPassw
 from .utils import Util
 from notes.decorators import token_dict
 from NotesKeepingApp.settings import file_handler
-from .utils import acccount_exception
+from .utils import AccountError, NotFoundUserError
+from notes.services import Cache
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 logger.addHandler(file_handler)
+
+rdb = redis.StrictRedis()
 
 
 class CustomRedirect(HttpResponsePermanentRedirect):
@@ -64,29 +68,61 @@ class LoginAPIView(generics.GenericAPIView):
             user_login_details = User.objects.get(email = email)
 
             if user_login_details.is_active == False:
-                raise acccount_exception("Activate your account to login.")
+                raise AccountError("pleacse activate account")
 
                 # if user_login_details.is_deleted == True:
-                #     raise acccount_exception("Account has been deleted.")
+                #     raise AccountError("Account has been deleted.")
 
                 # user = authenticate(email=email, password=password)
                 # print (user)
             # if user:
-            user_id = user_login_details.id
-            print(user_id)
-            return_token = jwt.encode({"token": user_id}, "secret", algorithm="HS256").decode('utf-8')
+            if user_login_details.id is not None:
+                user_id = user_login_details.id
+                print(user_id)
+            else:
+                raise NotFoundUserError(user_login_details.id)
+            return_token = jwt.encode({"user_id": user_id}, "secret", algorithm="HS256").decode('utf-8')
             print(return_token)
+            Cache.set_cache(str(user_id), return_token)
             token_dict["Token"]=return_token
-            return Response("Log in suuccessful", status.HTTP_200_OK) 
-            if user_login_details.is_active== True:
-                return Response("invalid password", status.HTTP_400_BAD_REQUEST)
+            result = {
+                'message':"Log in suuccessful",
+                'token': return_token,
+            } 
+            return Response(result, status.HTTP_200_OK) 
+            # if user_login_details.is_active== True:
+            #     return Response("invalid password", status.HTTP_400_BAD_REQUEST)
         # except User.DoesNotExist as e:
         #     logging.warning(str(e))
-        # except acccount_exception as e:
+        # except AuthenticationFailed as e:
+        #     logging.error(str(e))
+        #     return Response("Error has occured!", status.HTTP_400_BAD_REQUEST)
+        except AccountError as e:
+            logging.error(str(e))
+            return Response("Error has occured!", status.HTTP_400_BAD_REQUEST) 
+        # except Exception as e:
         #     logging.warning(str(e))
-        except Exception as e:
-            logging.warning(str(e))
-            return Response("Internal error", status.HTTP_400_BAD_REQUEST) 
+        #     return Response("Internal error", status.HTTP_400_BAD_REQUEST) 
+
+class UserLogoutView(generics.GenericAPIView):
+
+    def post(self, request, *args, **kwargs):
+        '''
+        :param request: takes in a post request with no attributes
+        :return: Returns a HTTP 200 after logging user out.
+        '''
+
+        token = request.headers.get('token')
+        payload = jwt.decode(token, os.getenv('secret'), algorithm=os.getenv('algorithm'))
+        user_id = payload.get('id')
+        rdb.delete(user_id)
+        smd = {
+            'success': True,
+            'message': 'Successfully Logged out',
+            'data': []
+        }
+
+        return Response(data=smd, status=status.HTTP_200_OK)
 
 
 class RegisterView(generics.GenericAPIView):
