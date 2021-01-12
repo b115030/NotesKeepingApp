@@ -1,23 +1,29 @@
 import logging
 import redis
 
-r = redis.StrictRedis()
+
 
 
 class Cache(object):
 
-    # def __init__(self):
-    #     self.r = redis.StrictRedis(host='http://127.0.0.1:8000/', port=6379)
+    def __init__(self):
+        self.r = redis.StrictRedis()
+    
+    def set_cache(self, key, val):
+        self.r.set(key, val)
+        self.r.expire(key, time = 100)
 
-    @staticmethod
-    def set_cache(key, val):
-        r.set(key, val)
-        r.expire(key, time = 100)
-    @staticmethod
-    def get_cache( key):
-        id = r.get(key)
+    def get_cache(self, key):
+        id = self.r.get(key)
         return id
-    @staticmethod
-    def clear_cache():
-        r.flushall()
+
+    def clear_cache(self):
+        self.r.flushall()
         logging.debug("Cache Flushed")
+
+    def delete_cache(self, key):
+        """
+        @param key: The key of the respective note
+        @type key: String
+        """
+        self.r.delete(key)

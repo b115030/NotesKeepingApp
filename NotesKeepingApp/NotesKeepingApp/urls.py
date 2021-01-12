@@ -62,9 +62,8 @@ urlpatterns = [
          views.PasswordTokenCheckAPI.as_view(), name='password-reset-confirm'),
     path('password-reset-complete/', views.SetNewPasswordAPIView.as_view(),
          name='password-reset-complete'),
-    path('create-note/', note_view.NotesAPI.as_view(), name="AddNote"),
-    path('note/<int:pk>', note_view.NotesAPI.as_view(), name='UpdateNote'),
+    path('notes/', include('notes.urls')),
     path('label/', label_view.Labels.as_view(), name="label"),
-    path('label/<int:pk>', label_view.Labels.as_view()),
+    path('label/<int:pk>', label_view.Labels.as_view(), name="specific-label"),
     path('all-notes/', note_view.AllNotesAPI.as_view(), name="AllNotes"),
 ]

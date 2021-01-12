@@ -8,6 +8,7 @@ import os
 import jwt
 import logging
 import json
+import redis
 from django.contrib.auth import authenticate, login, logout
 from django.conf import settings
 from django.contrib.auth.tokens import PasswordResetTokenGenerator
@@ -18,23 +19,23 @@ from django.utils.http import urlsafe_base64_encode
 from drf_yasg import openapi
 from drf_yasg.utils import swagger_auto_schema
 from rest_framework import (generics, status, views)
-import redis
 from rest_framework.response import Response
 from rest_framework_simplejwt.tokens import RefreshToken
 from .models import User
 from .serializer import RegisterSerializer, SetNewPasswordSerializer, ResetPasswordEmailRequestSerializer, EmailVerificationSerializer, LoginSerializer
 from .utils import Util
-from notes.decorators import token_dict
+from notes.utils import token_dict
 from NotesKeepingApp.settings import file_handler
 from .utils import AccountError, NotFoundUserError
 from notes.services import Cache
+from notes.tasks import send_activation_mail
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 logger.addHandler(file_handler)
 
 rdb = redis.StrictRedis()
-
+Cache = Cache()
 
 class CustomRedirect(HttpResponsePermanentRedirect):
     allowed_schemes = [os.environ.get('APP_SCHEME'), 'http', 'https']
@@ -58,15 +59,11 @@ class LoginAPIView(generics.GenericAPIView):
         try:
             serializer = self.serializer_class(data=request.data)
             serializer.is_valid(raise_exception=True)
-            # encode_jwt = jwt.encode ({'user_id':'user_id'}, "secret", algorithm = "HS256")
-            # #.set{'user_id': 'token'}
-            # #shouldnot return the password and private credentials
             email = serializer.data.get('email')
             print(email)
             password = serializer.data.get('password')
             print(password)
             user_login_details = User.objects.get(email = email)
-
             if user_login_details.is_active == False:
                 raise AccountError("pleacse activate account")
 
@@ -83,26 +80,16 @@ class LoginAPIView(generics.GenericAPIView):
                 raise NotFoundUserError(user_login_details.id)
             return_token = jwt.encode({"user_id": user_id}, "secret", algorithm="HS256").decode('utf-8')
             print(return_token)
-            Cache.set_cache(str(user_id), return_token)
+            Cache.set_cache("NOTE_"+str(user_id), return_token)
             token_dict["Token"]=return_token
             result = {
                 'message':"Log in suuccessful",
                 'token': return_token,
             } 
             return Response(result, status.HTTP_200_OK) 
-            # if user_login_details.is_active== True:
-            #     return Response("invalid password", status.HTTP_400_BAD_REQUEST)
-        # except User.DoesNotExist as e:
-        #     logging.warning(str(e))
-        # except AuthenticationFailed as e:
-        #     logging.error(str(e))
-        #     return Response("Error has occured!", status.HTTP_400_BAD_REQUEST)
         except AccountError as e:
             logging.error(str(e))
             return Response("Error has occured!", status.HTTP_400_BAD_REQUEST) 
-        # except Exception as e:
-        #     logging.warning(str(e))
-        #     return Response("Internal error", status.HTTP_400_BAD_REQUEST) 
 
 class UserLogoutView(generics.GenericAPIView):
 
@@ -149,13 +136,27 @@ class RegisterView(generics.GenericAPIView):
             serializer.save()
             user_data = serializer.data
             user = User.objects.get(email=user_data['email'])
+            
+
             token = RefreshToken.for_user(user).access_token
             absolute_url = request.build_absolute_uri(reverse('email-verify')) + "?token=" + str(token)
             email_body = 'Hi ' + user.user_name + \
                         ', \n Use the link below to verify your email \n' + absolute_url
             data = {'email_body': email_body, 'to_email': user.email,
                     'email_subject': 'Verify your email'}
-            Util.send_email(data)
+            send_activation_mail.delay(data)
+            logging.debug('validated data: {}'.format(serializer.data))
+            user.is_active = False
+            user.save()       
+
+            context = {            
+                'protocol': request.scheme,            
+                'domain': request.META['HTTP_HOST'],            
+            }
+
+            send_activation_mail.delay(user.id, context) ## calling the task
+
+            # return user
             message_dict['success']= True
             return Response(message_dict, status=status.HTTP_201_CREATED)
         except Exception as e:
@@ -175,11 +176,11 @@ class VerifyEmail(views.APIView):
         """verifies for credentials using wmail and then gives login access
 
         Args:
-            request ([type]): [description]
+            request (HttpRequest): metadata of Notes 
 
         Returns:
-            [type]: [description]
-        """        
+            object : Rest framework Response object
+        """       
         token = request.GET.get('token')
 
         message_dict = {
@@ -212,6 +213,14 @@ class RequestPasswordResetEmail(generics.GenericAPIView):
     serializer_class = ResetPasswordEmailRequestSerializer
 
     def post(self, request):
+        """[summary]
+
+        Args:
+            request ([type]): [description]
+
+        Returns:
+            [type]: [description]
+        """        
 
         message_dict = {
             'success': False,
@@ -230,7 +239,7 @@ class RequestPasswordResetEmail(generics.GenericAPIView):
                          absolute_url + "?redirect_url=" + redirect_url
             data = {'email_body': email_body, 'to_email': user.email,
                     'email_subject': 'Reset your passsword'}
-            Util.send_email(data)
+            send_activation_mail.delay(data)
             message_dict['success']=True
             message_dict['message']='We have sent you a link to reset your password'
             return Response(message_dict, status=status.HTTP_200_OK)
@@ -262,6 +271,14 @@ class SetNewPasswordAPIView(generics.GenericAPIView):
     serializer_class = SetNewPasswordSerializer
 
     def patch(self, request):
+        """[summary]
+
+        Args:
+            request ([type]): [description]
+
+        Returns:
+            [type]: [description]
+        """        
         serializer = self.serializer_class(data=request.data)
         serializer.is_valid(raise_exception=True)
         return Response({'success': True, 'message': 'Password reset success'}, status=status.HTTP_200_OK)
