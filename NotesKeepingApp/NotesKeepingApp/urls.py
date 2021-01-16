@@ -23,46 +23,11 @@ from rest_framework import routers
 from notes import views as note_view
 from Label import views as label_view
 
-# router = routers.DefaultRouter()
-# router.register('users', views.UserDetailsCrud)
 
-urlpatterns = [
-    # path('admin/', admin.site.urls),
-    # path('api/token/', jwt_views.TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    # path('api/token/refresh/', jwt_views.TokenRefreshView.as_view(), name='token_refresh'),
-    # path('account/', include('account.urls')),
-    # path('accounts/', include('django.contrib.auth.urls')),
-    # path('', TemplateView.as_view(template_name='dashboard.html'), name='home'),
-    # path('admin/', admin.site.urls),
-    # path('', include(router.urls)),
-    # path('login/', views.LoginAPIView.as_view()),
-    # path('register/', views.RegisterView.as_view()),
-
-    # path('api/token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    # path('api/token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    # path('request-reset-email/', views.RequestPasswordResetEmail.as_view(),
-    #      name="request-reset-email"),
-    # path('password-reset/<uidb64>/<token>/',
-    #      views.PasswordTokenCheckAPI.as_view(), name='password-reset-confirm'),
-    # path('password-reset-complete/', views.SetNewPasswordAPIView.as_view(),
-    #      name='password-reset-complete')
-    # path('accounts/', include('account.urls')),
-    # path('signup/', views.signup, name="signup"),  
-    # path('activate/<uidb64>/<token>/',views.VerificationView, name='activate'),
-    # urlpatterns = [
+urlpatterns =[ 
     path('admin/', admin.site.urls),
-    path('login/', views.LoginAPIView.as_view(), name="login"),
-    path('logout/', views.UserLogoutView.as_view(), name='logout'),
-    path('register/', views.RegisterView.as_view(), name="register"),
-    path('email-verify/', views.VerifyEmail.as_view(), name="email-verify"),
-    path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('request-reset-email/', views.RequestPasswordResetEmail.as_view(),
-         name="request-reset-email"),
-    path('password-reset/<uidb64>/<token>/',
-         views.PasswordTokenCheckAPI.as_view(), name='password-reset-confirm'),
-    path('password-reset-complete/', views.SetNewPasswordAPIView.as_view(),
-         name='password-reset-complete'),
-    path('notes/', include('notes.urls')),
+    path('notes/', include('notes.urls')),\
+    path('account/', include('account.urls')),
     path('label/', label_view.Labels.as_view(), name="label"),
     path('label/<int:pk>', label_view.Labels.as_view(), name="specific-label"),
     path('all-notes/', note_view.AllNotesAPI.as_view(), name="AllNotes"),

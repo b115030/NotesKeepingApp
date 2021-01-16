@@ -2,6 +2,7 @@ import os
 import logging
 from pathlib import Path
 from decouple import config
+from celery.schedules import crontab
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -160,4 +161,23 @@ file_handler.setFormatter(formatter)
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
-CELERY_BROKER_URL = 'amqp://localhost'
+# CELERY_BROKER_URL = 'amqp://localhost'
+CELERY_BROKER_URL = 'redis://localhost:6379'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'Asia/Makassar'
+CELERY_BEAT_SCHEDULE = {}
+CELERY_BEAT_SCHEDULE = {
+    'task-number-one': {
+        'task': 'app1.tasks.task_number_one',
+        'schedule': crontab(minute=59),#, hour=23
+        # 'args': (*args)
+    },
+    'task-number-two': {
+        'task': 'app2.tasks.task_number_two',
+        'schedule': crontab(minute=0, hour='*/3,10-19'),
+        # 'args': (*args)
+    }
+}

@@ -34,7 +34,7 @@ logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 logger.addHandler(file_handler)
 
-rdb = redis.StrictRedis()
+# rdb = redis.StrictRedis()
 Cache = Cache()
 
 class CustomRedirect(HttpResponsePermanentRedirect):
@@ -50,7 +50,7 @@ class LoginAPIView(generics.GenericAPIView):
         it verifies the credentials, if credentials were matched then returns data in json format, else throws exception
 
         Args:
-            request 
+            request : username, password
 
         Returns:
             Response (json): json data if credentials are matched
@@ -60,9 +60,9 @@ class LoginAPIView(generics.GenericAPIView):
             serializer = self.serializer_class(data=request.data)
             serializer.is_valid(raise_exception=True)
             email = serializer.data.get('email')
-            print(email)
+            # print(email)
             password = serializer.data.get('password')
-            print(password)
+            # print(password)
             user_login_details = User.objects.get(email = email)
             if user_login_details.is_active == False:
                 raise AccountError("pleacse activate account")
@@ -80,7 +80,7 @@ class LoginAPIView(generics.GenericAPIView):
                 raise NotFoundUserError(user_login_details.id)
             return_token = jwt.encode({"user_id": user_id}, "secret", algorithm="HS256").decode('utf-8')
             print(return_token)
-            Cache.set_cache("NOTE_"+str(user_id), return_token)
+            Cache.set_cache("NOTE_FOR_UID_"+str(user_id), return_token)
             token_dict["Token"]=return_token
             result = {
                 'message':"Log in suuccessful",
@@ -151,7 +151,7 @@ class RegisterView(generics.GenericAPIView):
 
             context = {            
                 'protocol': request.scheme,            
-                'domain': request.META['HTTP_HOST'],            
+                'domain': request.META['HTTP_HOST'],      
             }
 
             send_activation_mail.delay(user.id, context) ## calling the task

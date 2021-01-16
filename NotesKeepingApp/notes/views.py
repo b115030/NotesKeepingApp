@@ -62,8 +62,11 @@ class NotesAPI(APIView):
     def get(self, request, *args, **kwargs):
         """takes key as input, if exists in db, return the data 
 
+        requests: email
+
         Returns:
             message_dict: success or failure message along with status
+        
         """         
         message_dict = {
             'message': 'error has occured',
@@ -215,16 +218,15 @@ class NoteArchive(APIView):
         """        
         logged_user = kwargs.get('user')
         try:
-            if not Cache.get_cache("ARCHIVED_NOTES_OF_"+str(logged_user.id)):#"ARCHIVED_NOTES"
-                notes = Note.objects.filter(is_archived = True)
+            # if not Cache.get_cache("ARCHIVED_NOTES_OF_"+str(logged_user.id)):#"ARCHIVED_NOTES"
+            notes = Note.objects.filter(is_archived = True)
 
-                if not notes:
-                    raise NotesError("No notes archived")
-
-                serilaze = NotesSerializer(notes, many=True)
-                Cache.set_cache("ARCHIVED_NOTES_OF_"+str(logged_user.id), serilaze)#"ARCHIVED_NOTES"
+            if not notes:
+                raise NotesError("No notes archived")
+            # Cache.set_cache("ARCHIVED_NOTES_OF_"+str(logged_user.id), serilaze)#"ARCHIVED_NOTES"
             else:
-                serilaze = Cache.get_cache("ARCHIVED_NOTES_OF_"+str(logged_user.id))
+                serilaze = NotesSerializer(notes, many=True)
+                # serilaze = Cache.get_cache("ARCHIVED_NOTES_OF_"+str(logged_user.id))
             response = manage_response(message="Successful", status=True, data=serilaze.data)
             return Response(response, status=status.HTTP_200_OK)
         except NotesError as e:
@@ -258,16 +260,17 @@ class NoteTrash(APIView):
         """        
         logged_user = kwargs.get('user')
         try:
-            if not Cache.get_cache("TRASHED_NOTES_OF_"+str(logged_user.id)):
-                notes = Note.objects.filter(trash = True)
+            # if not Cache.get_cache("TRASHED_NOTES_OF_"+str(logged_user.id)):
+            notes = Note.objects.filter(trash = True)
 
-                if not notes:
-                    raise NotesError("No trashed notes")
+            if not notes:
+                raise NotesError("No trashed notes")
 
-                serilaze = NotesSerializer(notes, many=True)
-                Cache.set_cache("TRASHED_NOTES_OF_"+str(logged_user.id), serilaze)
+            
+            # Cache.set_cache("TRASHED_NOTES_OF_"+str(logged_user.id), serilaze)
             else:
-                serilaze = Cache.get_cache("TRASHED_NOTES_OF_"+str(logged_user.id))
+                # serilaze = Cache.get_cache("TRASHED_NOTES_OF_"+str(logged_user.id))
+                serilaze = NotesSerializer(notes, many=True)
                 response = manage_response(message="Successful", status=True, data=serilaze.data)
             return Response(response, status=status.HTTP_200_OK)
         except NotesError as n:
@@ -298,11 +301,11 @@ class NotePinned(APIView):
         """        
         logged_user = kwargs.get('user')
         try:
-            if not Cache.get_cache("PINNED_NOTES_OF_"+str(logged_user.id)):
-                notes = Note.objects.filter(is_pinned = True)
+            # if not Cache.get_cache("PINNED_NOTES_OF_"+str(logged_user.id)):
+            notes = Note.objects.filter(is_pinned = True)
 
-                if not notes:
-                    raise NotesError("No pinned notes")
+            if not notes:
+                raise NotesError("No pinned notes")
 
                 serilaze = NotesSerializer(notes, many=True)
                 Cache.set_cache("PINNED_NOTES_OF_"+str(logged_user.id), serilaze)#
@@ -340,17 +343,18 @@ class NoteSearch(APIView):
         try:
             user_id = kwargs.get('user').id
             search_word = kwargs.get('searched')
-            cache_key = "SEARCHED_WORD_"+search_word+"OF_USER_"+str(user_id) 
-            if not Cache.get_cache(cache_key):
-                notes = Note.objects.filter(is_deleted = False).filter(title_contains = search_word)
+            # cache_key = "SEARCHED_WORD_"+search_word+"OF_USER_"+str(user_id) 
+            # if not Cache.get_cache(cache_key):
+            notes = Note.objects.filter(is_deleted = False).filter(title_contains = search_word)
 
-                if not notes:
-                    raise NotesError("No such notes found for {}".format(search_word))
+            if not notes:
+                raise NotesError("No such notes found for {}".format(search_word))
 
-                serialize = NotesSerializer(notes, many=True)
-                Cache.set_cache(cache_key, serialize)
+                
+                # Cache.set_cache(cache_key, serialize)
             else:
-                serialize = Cache.get_cache(cache_key)
+                # serialize = Cache.get_cache(cache_key)
+                serialize = NotesSerializer(notes, many=True)
             response = manage_response(message="Successful", status=True, data=serialize.data)
             SEARCH_DATA.append(search_word)
             return Response(response, status=status.HTTP_200_OK)
